@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Mueli UABC - Facultad de Odontología Mexicali",
+  "short_name": "Mueli UABC",
+  "description": "Servicios odontológicos de la Facultad de Odontología UABC Campus Mexicali.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#1B4332",
+  "background_color": "#EAF2ED",
+  "categories": ["medical", "health", "education"],
+  "icons": [
+    {
+      "src": "/assets/aistudio/logoodonto_23e71318.jpg",
+      "sizes": "192x192 512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

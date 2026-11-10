@@ -1,0 +1,6 @@
+{
+  "name": "Mueli UABC - Facultad de Odontología Mexicali",
+  "description": "Aplicación oficial de la Facultad de Odontología UABC Campus Mexicali con catálogo de servicios clínicos odontológicos, tratamientos, ubicación y contacto directo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
