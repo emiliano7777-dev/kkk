@@ -23,7 +23,7 @@ export const DENTAL_SERVICES: DentalService[] = [
       'Prevención de caries',
       'Orientación sobre higiene bucal'
     ],
-    image: '/src/assets/images/preventive_dental_clean_1794293909269.jpg',
+    image: '/images/preventive_dental_clean_1794293909269.jpg',
     imageAlt: 'Limpieza dental profesional en clínica de odontología preventiva UABC',
     iconName: 'ShieldCheck'
   },
@@ -39,7 +39,7 @@ export const DENTAL_SERVICES: DentalService[] = [
       'Resinas',
       'Reconstrucción de dientes dañados'
     ],
-    image: '/src/assets/images/restorative_operatoria_dental_1794293909401.jpg',
+    image: '/images/restorative_operatoria_dental_1794293909401.jpg',
     imageAlt: 'Procedimiento de operatoria dental y restauración con resina estética',
     iconName: 'Sparkles'
   },
@@ -55,7 +55,7 @@ export const DENTAL_SERVICES: DentalService[] = [
       'Limpieza profunda',
       'Atención de enfermedades de las encías'
     ],
-    image: '/src/assets/images/periodontal_gum_care_1794293910402.jpg',
+    image: '/images/periodontal_gum_care_1794293910402.jpg',
     imageAlt: 'Evaluación y tratamiento periodontal de encías en clínica dental',
     iconName: 'Activity'
   },
@@ -70,7 +70,7 @@ export const DENTAL_SERVICES: DentalService[] = [
       'Atención de infecciones pulpares',
       'Tratamiento de dientes con daño pulpar'
     ],
-    image: '/src/assets/images/endodontics_root_canal_1794293912055.jpg',
+    image: '/images/endodontics_root_canal_1794293912055.jpg',
     imageAlt: 'Equipo clínico especializado para tratamiento de conductos y endodoncia',
     iconName: 'Flame'
   },
@@ -85,7 +85,7 @@ export const DENTAL_SERVICES: DentalService[] = [
       'Extracción de terceros molares',
       'Procedimientos quirúrgicos bucales'
     ],
-    image: '/src/assets/images/oral_surgery_dental_1794293912152.jpg',
+    image: '/images/oral_surgery_dental_1794293912152.jpg',
     imageAlt: 'Equipo de cirugía bucal en quirófano de la clínica odontológica',
     iconName: 'Scissors'
   },
@@ -101,7 +101,7 @@ export const DENTAL_SERVICES: DentalService[] = [
       'Coronas dentales',
       'Rehabilitación protésica'
     ],
-    image: '/src/assets/images/dental_prosthetics_crowns_1794293913478.jpg',
+    image: '/images/dental_prosthetics_crowns_1794293913478.jpg',
     imageAlt: 'Modelo de prótesis dental y coronas para rehabilitación bucal',
     iconName: 'Layers'
   },
@@ -118,7 +118,7 @@ export const DENTAL_SERVICES: DentalService[] = [
       'Restauraciones infantiles',
       'Atención odontológica preventiva'
     ],
-    image: '/src/assets/images/pediatric_dentistry_children_1794293914061.jpg',
+    image: '/images/pediatric_dentistry_children_1794293914061.jpg',
     imageAlt: 'Odontopediatra atendiendo a una paciente infantil con calidez y simpatía',
     iconName: 'Smile'
   },
@@ -133,7 +133,7 @@ export const DENTAL_SERVICES: DentalService[] = [
       'Radiografías panorámicas, si están disponibles',
       'Estudios radiográficos para diagnóstico'
     ],
-    image: '/src/assets/images/dental_radiology_panoramic_1794293914097.jpg',
+    image: '/images/dental_radiology_panoramic_1794293914097.jpg',
     imageAlt: 'Equipo moderno de radiología panorámica dental digital en la facultad',
     iconName: 'ScanLine'
   },
@@ -148,7 +148,7 @@ export const DENTAL_SERVICES: DentalService[] = [
       'Tratamiento con aparatología',
       'Corrección de malposiciones dentales'
     ],
-    image: '/src/assets/images/orthodontics_braces_smile_1794293915287.jpg',
+    image: '/images/orthodontics_braces_smile_1794293915287.jpg',
     imageAlt: 'Consulta de ortodoncia y corrección de posición dental con brackets',
     iconName: 'AlignLeft'
   }
@@ -174,9 +174,9 @@ A través de sus actividades académicas y clínicas, contribuye a la formación
   facebookUrl: 'https://www.facebook.com/facultadde.odontologiamexicali/?locale=es_LA',
   hours: '8:00 a. m. a 4:00 p. m.',
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Facultad+de+Odontolog%C3%ADa+UABC+Mexicali+Zotoluca',
-  heroImage: '/src/assets/images/hero_mueli_clinic_1794293908339.jpg',
-  familyImage: '/src/assets/images/family_oral_health_care_1794293915932.jpg',
-  facultyImage: '/src/assets/images/faculty_academic_clinic_uabc_1794293915434.jpg',
+  heroImage: '/images/hero_mueli_clinic_1794293908339.jpg',
+  familyImage: '/images/family_oral_health_care_1794293915932.jpg',
+  facultyImage: '/images/faculty_academic_clinic_uabc_1794293915434.jpg',
   officialLogo: '/assets/aistudio/logoodonto_23e71318.jpg',
   officialWebsite: 'https://odontologia.mxl.uabc.mx/odo3/'
 };

@@ -6,7 +6,7 @@ interface UABCLogoProps {
   showText?: boolean;
 }
 
-export const OFFICIAL_LOGO_PATH = '/assets/aistudio/logoodonto_23e71318.jpg';
+export const OFFICIAL_LOGO_PATH = '/images/logoodonto_23e71318.jpg';
 
 export const UABCEmblem: React.FC<UABCLogoProps> = ({
   className = '',
@@ -29,6 +29,11 @@ export const UABCEmblem: React.FC<UABCLogoProps> = ({
           alt="Logotipo oficial Facultad de Odontología Mexicali UABC"
           className="w-full h-full object-contain"
           referrerPolicy="no-referrer"
+          onError={(e) => {
+            const target = e.currentTarget;
+            if (target.src.endsWith('/assets/aistudio/logoodonto_23e71318.jpg')) return;
+            target.src = '/assets/aistudio/logoodonto_23e71318.jpg';
+          }}
         />
       </div>
 
@@ -68,6 +73,11 @@ export const MueliBrandLogo: React.FC<{ size?: 'sm' | 'md' | 'lg' }> = ({ size =
           alt="Logo Facultad de Odontología UABC Mexicali"
           className="w-full h-full object-contain"
           referrerPolicy="no-referrer"
+          onError={(e) => {
+            const target = e.currentTarget;
+            if (target.src.endsWith('/assets/aistudio/logoodonto_23e71318.jpg')) return;
+            target.src = '/assets/aistudio/logoodonto_23e71318.jpg';
+          }}
         />
       </div>
 
